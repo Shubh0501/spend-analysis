@@ -1,0 +1,83 @@
+.top-categories-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-income-container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: white;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+
+.top-spend-container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: white;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+
+.top-header-container {
+  background-color: black;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.header {
+  font-size: large;
+  font-weight: 500;
+}
+
+.category {
+  width: 100%;
+  color: black;
+  border-bottom: 1px gray solid;
+  cursor: pointer;
+  position: relative;
+}
+
+.category:hover {
+  background-color: lightgray;
+}
+
+.fill-denoter {
+  position: absolute;
+  height: 100%;
+}
+
+.income-fill {
+  background-color: lightgreen;
+}
+
+.spend-fill {
+  background-color: lightcoral;
+}
+
+.fill-tooltip {
+  visibility: hidden;
+  background-color: white;
+  padding: 1%;
+  z-index: 10;
+  position: absolute;
+  border-radius: 5%;
+  border: 0.5px gray solid;
+  box-shadow: 2px 2px 5px gray;
+  width: 100px;
+  height: 30px;
+  top: 10px;
+  left: 10px;
+}
+
+.fill-percentage {
+  font-size: xx-small;
+}
+
+.fill-denoter:hover .fill-tooltip {
+  visibility: visible;
+}

@@ -1,0 +1,50 @@
+.table {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  border: 1px gray solid;
+  outline: 0;
+  border-spacing: 0;
+}
+
+.table-header-container {
+  border: 1px gray solid;
+  height: 50px;
+  font-size: large;
+  background-color: #1f1f1f;
+  color: whitesmoke;
+}
+
+.table-header-description {
+  border: 1px gray solid;
+  width: 40%;
+  border-top-left-radius: 10px;
+  border-bottom: 3px gray solid;
+}
+
+.table-header-data {
+  border: 1px gray solid;
+  width: 60%;
+  border-top-right-radius: 10px;
+  border-bottom: 3px gray solid;
+}
+
+.table-row {
+  height: 40px;
+}
+
+.table-description {
+  border: 0.5px gray solid;
+  font-weight: 500;
+}
+
+.table-data {
+  border: 0.5px gray solid;
+  text-align: center;
+}
+
+/* Hover Styles */
+.table-row:hover {
+  background-color: lightgray;
+}
