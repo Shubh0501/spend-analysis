@@ -20,4 +20,4 @@
 
 ### `npm start`
 
-## You'll be able to access the website running on port 3000[http://localhost:3000]
+## You'll be able to access the website running on port [3000](http://localhost:3000)
